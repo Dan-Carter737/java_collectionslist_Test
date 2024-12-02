@@ -7,12 +7,9 @@ public class TodoList {
 
     private List<String> todos;
 
-    public void ToDoList() {
-        this.todos = new ArrayList<>();
-    }
 
     public TodoList() {
-        this.todos = todos;
+        this.todos = new ArrayList<>();
     }
 
     public List<String> getTodos(){
